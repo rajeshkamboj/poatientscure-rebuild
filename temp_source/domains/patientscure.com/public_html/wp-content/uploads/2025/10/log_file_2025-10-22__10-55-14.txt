@@ -1,0 +1,64 @@
+
+---Downloaded files---
+The import files for: Food Demo were successfully downloaded!
+Initial max execution time = 360
+Files info:
+Site URL = https://patientscure.com
+Data file = /home/u228322850/domains/patientscure.com/public_html/wp-content/uploads/2025/10/demo-content-import-file_2025-10-22__10-55-14.xml
+Widget file = /home/u228322850/domains/patientscure.com/public_html/wp-content/uploads/2025/10/demo-widgets-import-file_2025-10-22__10-55-14.json
+Customizer file = not defined!
+Redux files:
+mow_fn_option -> /home/u228322850/domains/patientscure.com/public_html/wp-content/uploads/2025/10/demo-redux-import-file_0-2025-10-22__10-55-14.json 
+
+
+------
+New AJAX call!
+
+
+------
+New AJAX call!
+
+
+---Importing widgets---
+Main Sidebar : 
+
+Frenify Donations - Donations - Imported
+Frenify Posts - Popular - Imported
+Frenify Followers - Join Us - Imported
+Frenify Posts - Deal Of The Month - Imported
+Frenify Subscribe - Stay Informed With the Latest &amp; Most Important News - Imported
+Frenify Custom Categories - Categories - Imported
+Frenify Ad. - Advertisement - Imported
+
+Secondary Sidebar : 
+
+Frenify Posts - Top Headlines - Imported
+
+Off-Canvas Sidebar : 
+
+Frenify Posts - Popular - Imported
+
+Footer #1 Sidebar : 
+
+Image - No Title - Imported
+Text - No Title - Imported
+
+Footer #2 Sidebar : 
+
+Navigation Menu - Links - Imported
+
+Footer #3 Sidebar : 
+
+Navigation Menu - Menu - Imported
+
+Footer #4 Sidebar : 
+
+Mailchimp Sign-Up Form - Newsletter - Imported
+
+
+
+---Importing Redux settings---
+Redux settings import for: mow_fn_option finished successfully!
+
+---ocdi/after_import---
+

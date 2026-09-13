@@ -1,0 +1,8 @@
+2021-07-13T14:55:48+00:00 CRITICAL syntax error, unexpected identifier "gutentype_storage_get", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/theme-specific/theme-setup.php on line 1037
+
+2021-07-13T14:55:49+00:00 CRITICAL syntax error, unexpected identifier "gutentype_storage_get", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/theme-specific/theme-setup.php on line 1037
+
+2021-07-13T14:55:50+00:00 CRITICAL syntax error, unexpected identifier "gutentype_storage_get", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/theme-specific/theme-setup.php on line 1037
+
+2021-07-13T15:26:41+00:00 CRITICAL Unclosed '(' on line 2243 in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/theme-specific/theme-setup.php on line 2244
+

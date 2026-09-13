@@ -1,0 +1,225 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #2D5D2C;
+  --color-secondary: #CC7357;
+  --color-background: #F8F6F0;
+  --color-surface: #FFFFFF;
+  --color-text: #2E2E2E;
+  --color-accent: #A8B6A2;
+  --color-primary-dark: #6B8E6A;
+  --color-secondary-dark: #D4A58A;
+  --color-background-dark: #1A1A1A;
+  --color-surface-dark: #2D2D2D;
+  --color-text-dark: #E0E0E0;
+  --color-accent-dark: #8A9B85;
+}
+
+@theme {
+  --color-primary: #2D5D2C;
+  --color-secondary: #CC7357;
+  --color-background: #F8F6F0;
+  --color-surface: #FFFFFF;
+  --color-text: #2E2E2E;
+  --color-accent: #A8B6A2;
+  --color-primary-dark: #6B8E6A;
+  --color-secondary-dark: #D4A58A;
+  --color-background-dark: #1A1A1A;
+  --color-surface-dark: #2D2D2D;
+  --color-text-dark: #E0E0E0;
+  --color-accent-dark: #8A9B85;
+}
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@layer base {
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', Georgia, serif;
+    font-weight: 700;
+    line-height: 1.2;
+    color: var(--color-text);
+  }
+
+  body, p, li, span, div {
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    color: var(--color-text);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-secondary {
+    background-color: var(--color-secondary);
+  }
+
+  .bg-background {
+    background-color: var(--color-background);
+  }
+
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+
+  .text-primary {
+    color: var(--color-primary);
+  }
+
+  .text-secondary {
+    color: var(--color-secondary);
+  }
+
+  .text-accent {
+    color: var(--color-accent);
+  }
+
+  .border-primary {
+    border-color: var(--color-primary);
+  }
+
+  .hover\:bg-primary:hover {
+    background-color: var(--color-primary);
+  }
+
+  .dark .hover\:bg-primary-dark:hover {
+    background-color: var(--color-primary-dark);
+  }
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply antialiased bg-background text-text;
+}
+
+h1 {
+  @apply text-4xl md:text-5xl lg:text-6xl;
+}
+
+h2 {
+  @apply text-3xl md:text-4xl lg:text-5xl;
+}
+
+h3 {
+  @apply text-2xl md:text-3xl lg:text-4xl;
+}
+
+h4 {
+  @apply text-xl md:text-2xl lg:text-3xl;
+}
+
+.lead {
+  @apply text-lg text-text/80;
+}
+
+.container {
+  @apply mx-auto max-w-7xl px-4 sm:px-6 lg:px-8;
+}
+
+.card {
+  @apply rounded-xl bg-surface shadow transition-shadow duration-200 hover:shadow-lg;
+}
+
+.dark .card {
+  @apply bg-surface-dark;
+}
+
+.btn-primary {
+  @apply rounded-lg bg-primary px-6 py-3 font-medium text-white transition-colors duration-200 hover:bg-primary/90 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.btn-secondary {
+  @apply rounded-lg bg-secondary px-6 py-3 font-medium text-white transition-colors duration-200 hover:bg-secondary/90 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.btn-outline {
+  @apply rounded-lg border border-primary px-6 py-3 font-medium text-primary transition-colors duration-200 hover:bg-primary/10 disabled:cursor-not-allowed disabled:opacity-50;
+}
+
+.input {
+  @apply w-full rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text dark:placeholder-gray-400;
+}
+
+.textarea {
+  @apply min-h-[80px] w-full resize-y rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text dark:placeholder-gray-400;
+}
+
+.section {
+  @apply py-16;
+}
+
+.section-sm {
+  @apply py-12;
+}
+
+.section-lg {
+  @apply py-24;
+}
+
+.header-fixed {
+  @apply z-50 bg-surface/95 shadow-sm backdrop-blur-sm;
+}
+
+.dark .header-fixed {
+  @apply bg-surface-dark/95;
+}
+
+.transition-all {
+  @apply transition-all duration-200;
+}
+
+.hover-scale {
+  @apply transition-transform duration-200 hover:scale-[1.02];
+}
+
+.image-radius {
+  @apply rounded-xl;
+}
+
+.image-hover-zoom {
+  @apply overflow-hidden transition-transform duration-500 hover:scale-[1.03];
+}
+
+.image-hover-zoom img {
+  @apply transition-transform duration-500;
+}
+
+.card-hover {
+  @apply transition-shadow duration-300 hover:shadow-xl;
+}
+
+.card-hover-lift {
+  @apply transition-all duration-300 hover:-translate-y-1 hover:shadow-xl;
+}
+
+.gradient-primary {
+  @apply bg-gradient-to-r from-primary to-secondary;
+}
+
+.gradient-secondary {
+  @apply bg-gradient-to-r from-secondary to-primary;
+}
+
+.dark .border-gray-200 {
+  @apply border-gray-700;
+}
+
+.dark .bg-gray-50 {
+  @apply bg-gray-900/50;
+}
+
+.dark .bg-gray-100 {
+  @apply bg-gray-800/50;
+}
+
+.dark .text-gray-500 {
+  @apply text-gray-400;
+}
+
+.dark .text-gray-300 {
+  @apply text-gray-600;
+}
+

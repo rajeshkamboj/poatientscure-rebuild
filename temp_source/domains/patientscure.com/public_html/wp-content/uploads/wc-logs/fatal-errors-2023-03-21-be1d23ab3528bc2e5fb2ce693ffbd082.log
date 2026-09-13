@@ -1,0 +1,38 @@
+2023-03-21T06:38:36+00:00 CRITICAL Uncaught Exception: Invalid post. in /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/settings/page/manager.php:101
+Stack trace:
+#0 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/base/document.php(1646): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings()
+#1 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/base/document.php(790): Elementor\Core\Base\Document->save_settings()
+#2 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/kits/manager.php(295): Elementor\Core\Base\Document->update_settings()
+#3 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/kits/manager.php(457): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option()
+#4 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}()
+#5 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/u136705291/domains/patientscure.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/u136705291/domains/patientscure.com/public_html/wp-includes/option.php(554): do_action()
+#8 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/trx_addons/components/theme-panel/importer/class.importer.php(1068): update_option()
+#9 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/trx_addons/components/theme-panel/importer/class.importer.php(795): trx_addons_demo_data_importer->import_theme_options()
+#10 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(308): trx_addons_demo_data_importer->importer()
+#11 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#12 /home/u136705291/domains/patientscure.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/u136705291/domains/patientscure.com/public_html/wp-admin/admin-ajax.php(188): do_action()
+#14 {main}
+  thrown in /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/settings/page/manager.php on line 101
+
+2023-03-21T06:42:58+00:00 CRITICAL Uncaught Exception: Invalid post. in /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/settings/page/manager.php:101
+Stack trace:
+#0 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/base/document.php(1646): Elementor\Core\Settings\Page\Manager->ajax_before_save_settings()
+#1 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/base/document.php(790): Elementor\Core\Base\Document->save_settings()
+#2 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/kits/manager.php(295): Elementor\Core\Base\Document->update_settings()
+#3 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/kits/manager.php(461): Elementor\Core\Kits\Manager->update_kit_settings_based_on_option()
+#4 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(310): Elementor\Core\Kits\Manager->Elementor\Core\Kits\{closure}()
+#5 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#6 /home/u136705291/domains/patientscure.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#7 /home/u136705291/domains/patientscure.com/public_html/wp-includes/option.php(554): do_action()
+#8 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/trx_addons/components/theme-panel/importer/class.importer.php(1068): update_option()
+#9 /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/trx_addons/components/theme-panel/importer/class.importer.php(795): trx_addons_demo_data_importer->import_theme_options()
+#10 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(308): trx_addons_demo_data_importer->importer()
+#11 /home/u136705291/domains/patientscure.com/public_html/wp-includes/class-wp-hook.php(332): WP_Hook->apply_filters()
+#12 /home/u136705291/domains/patientscure.com/public_html/wp-includes/plugin.php(517): WP_Hook->do_action()
+#13 /home/u136705291/domains/patientscure.com/public_html/wp-admin/admin-ajax.php(188): do_action()
+#14 {main}
+  thrown in /home/u136705291/domains/patientscure.com/public_html/wp-content/plugins/elementor/core/settings/page/manager.php on line 101
+

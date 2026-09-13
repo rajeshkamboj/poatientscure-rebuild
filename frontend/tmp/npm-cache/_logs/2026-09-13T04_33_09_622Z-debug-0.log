@@ -1,0 +1,70 @@
+0 verbose cli C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\npm\bin\npm-cli.js
+1 info using npm@10.9.8
+2 info using node@v22.23.2
+3 silly config load:file:C:\Program Files\nodejs\node_modules\npm\npmrc
+4 silly config load:file:C:\Users\rajes\Documents\Playground\patientscure-rebuild\frontend\.npmrc
+5 silly config load:file:C:\Users\rajes\.npmrc
+6 silly config load:file:C:\Users\rajes\AppData\Roaming\npm\etc\npmrc
+7 verbose title npm install
+8 verbose argv "install" "--cache" "tmp/npm-cache"
+9 verbose logfile logs-max:10 dir:C:\Users\rajes\Documents\Playground\patientscure-rebuild\frontend\tmp\npm-cache\_logs\2026-09-13T04_33_09_622Z-
+10 verbose logfile C:\Users\rajes\Documents\Playground\patientscure-rebuild\frontend\tmp\npm-cache\_logs\2026-09-13T04_33_09_622Z-debug-0.log
+11 silly logfile done cleaning log files
+12 http fetch GET https://registry.npmjs.org/npm attempt 1 failed with ECONNREFUSED
+13 silly packumentCache heap:4345298944 maxSize:1086324736 maxEntrySize:543162368
+14 silly idealTree buildDeps
+15 silly fetch manifest next@16.3.5
+16 silly packumentCache full:https://registry.npmjs.org/next cache-miss
+17 silly fetch manifest react@19.2.8
+18 silly packumentCache full:https://registry.npmjs.org/react cache-miss
+19 silly fetch manifest react-dom@19.2.8
+20 silly packumentCache full:https://registry.npmjs.org/react-dom cache-miss
+21 silly fetch manifest @tailwindcss/postcss@^4
+22 silly packumentCache full:https://registry.npmjs.org/@tailwindcss%2fpostcss cache-miss
+23 silly fetch manifest @types/node@^20
+24 silly packumentCache full:https://registry.npmjs.org/@types%2fnode cache-miss
+25 silly fetch manifest @types/react@^19
+26 silly packumentCache full:https://registry.npmjs.org/@types%2freact cache-miss
+27 silly fetch manifest @types/react-dom@^19
+28 silly packumentCache full:https://registry.npmjs.org/@types%2freact-dom cache-miss
+29 silly fetch manifest eslint@^9
+30 silly packumentCache full:https://registry.npmjs.org/eslint cache-miss
+31 silly fetch manifest eslint-config-next@16.3.5
+32 silly packumentCache full:https://registry.npmjs.org/eslint-config-next cache-miss
+33 silly fetch manifest tailwindcss@^4
+34 silly packumentCache full:https://registry.npmjs.org/tailwindcss cache-miss
+35 silly fetch manifest typescript@^5
+36 silly packumentCache full:https://registry.npmjs.org/typescript cache-miss
+37 silly placeDep ROOT @tailwindcss/postcss@ OK for: frontend@0.1.0 want: ^4
+38 silly placeDep ROOT @types/node@ OK for: frontend@0.1.0 want: ^20
+39 silly placeDep ROOT @types/react@ OK for: frontend@0.1.0 want: ^19
+40 silly placeDep ROOT @types/react-dom@ OK for: frontend@0.1.0 want: ^19
+41 silly placeDep ROOT eslint@ OK for: frontend@0.1.0 want: ^9
+42 silly placeDep ROOT eslint-config-next@ OK for: frontend@0.1.0 want: 16.3.5
+43 silly placeDep ROOT next@ OK for: frontend@0.1.0 want: 16.3.5
+44 silly placeDep ROOT react@ OK for: frontend@0.1.0 want: 19.2.8
+45 silly placeDep ROOT react-dom@ OK for: frontend@0.1.0 want: 19.2.8
+46 silly placeDep ROOT tailwindcss@ OK for: frontend@0.1.0 want: ^4
+47 silly placeDep ROOT typescript@ OK for: frontend@0.1.0 want: ^5
+48 verbose stack Error: request to https://registry.npmjs.org/@tailwindcss%2fpostcss failed: cache mode is 'only-if-cached' but no cached response is available.
+48 verbose stack     at cacheFetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\cache\index.js:12:13)
+48 verbose stack     at async fetch (C:\Program Files\nodejs\node_modules\npm\node_modules\make-fetch-happen\lib\fetch.js:98:7)
+48 verbose stack     at async RegistryFetcher.packument (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:90:19)
+48 verbose stack     at async RegistryFetcher.manifest (C:\Program Files\nodejs\node_modules\npm\node_modules\pacote\lib\registry.js:128:23)
+48 verbose stack     at async #fetchManifest (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1202:20)
+48 verbose stack     at async #nodeFromEdge (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:1040:19)
+48 verbose stack     at async #buildDepStep (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:904:11)
+48 verbose stack     at async Arborist.buildIdealTree (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\build-ideal-tree.js:181:7)
+48 verbose stack     at async Promise.all (index 1)
+48 verbose stack     at async Arborist.reify (C:\Program Files\nodejs\node_modules\npm\node_modules\@npmcli\arborist\lib\arborist\reify.js:133:5)
+49 error code ENOTCACHED
+50 error request to https://registry.npmjs.org/@tailwindcss%2fpostcss failed: cache mode is 'only-if-cached' but no cached response is available.
+51 silly unfinished npm timer reify 1789273990921
+52 silly unfinished npm timer reify:loadTrees 1789273990922
+53 verbose cwd C:\Users\rajes\Documents\Playground\patientscure-rebuild\frontend
+54 verbose os Windows_NT 10.0.26220
+55 verbose node v22.23.2
+56 verbose npm  v10.9.8
+57 verbose exit 1
+58 verbose code 1
+59 error A complete log of this run can be found in: C:\Users\rajes\Documents\Playground\patientscure-rebuild\frontend\tmp\npm-cache\_logs\2026-09-13T04_33_09_622Z-debug-0.log

@@ -1,0 +1,76 @@
+2021-07-19T14:27:06+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, string given in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php:471
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(343): trx_addons_sc_widget_slider()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(218): preg_replace_callback()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): do_shortcode()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php(253): apply_filters()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/content-page.php(53): the_content()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/page.php(15): get_template_part()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php on line 471
+
+2021-07-19T14:27:25+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, string given in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php:471
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(343): trx_addons_sc_widget_slider()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(218): preg_replace_callback()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): do_shortcode()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/includes/wp.php(81): apply_filters()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/index-simple.php(16): gutentype_blog_archive_start()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/blog.php(56): get_template_part()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php on line 471
+
+2021-07-19T14:36:02+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, string given in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php:471
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(343): trx_addons_sc_widget_slider()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(218): preg_replace_callback()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): do_shortcode()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php(253): apply_filters()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/content-page.php(53): the_content()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/page.php(15): get_template_part()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php on line 471
+
+2021-07-19T14:42:03+00:00 CRITICAL Uncaught TypeError: count(): Argument #1 ($var) must be of type Countable|array, string given in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php:471
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(343): trx_addons_sc_widget_slider()
+#1 [internal function]: do_shortcode_tag()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/shortcodes.php(218): preg_replace_callback()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): do_shortcode()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/includes/wp.php(81): apply_filters()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/index-simple.php(16): gutentype_blog_archive_start()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/blog.php(56): get_template_part()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#14 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/widgets/slider/slider.php on line 471
+

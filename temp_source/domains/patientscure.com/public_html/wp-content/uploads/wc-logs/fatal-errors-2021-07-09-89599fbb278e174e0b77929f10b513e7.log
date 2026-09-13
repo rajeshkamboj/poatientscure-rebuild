@@ -1,0 +1,86 @@
+2021-07-09T08:25:55+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 34
+
+2021-07-09T08:26:01+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 34
+
+2021-07-09T09:17:38+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 28
+
+2021-07-09T09:17:43+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 28
+
+2021-07-09T09:17:45+00:00 CRITICAL syntax error, unexpected token ";", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 28
+
+2021-07-09T09:20:13+00:00 CRITICAL syntax error, unexpected identifier "trx_addons_sc_layouts_showed", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 42
+
+2021-07-09T09:20:29+00:00 CRITICAL syntax error, unexpected identifier "trx_addons_sc_layouts_showed", expecting ")" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 42
+
+2021-07-09T09:22:00+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_kses(), 1 passed in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 42 and at least 2 expected in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/kses.php:746
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php(42): wp_kses()
+#1 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/includes/plugin.utils.php(503): include('...')
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/shortcodes/blogger/tpl.default.php(128): trx_addons_get_template_part()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/includes/plugin.utils.php(503): include('...')
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/shortcodes/blogger/blogger.php(124): trx_addons_get_template_part()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/api/elementor/elementor.php(790): trx_addons_sc_blogger()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): TRX_Addons_Elementor_Widget->render()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/widget-base.php(549): Elementor\Controls_Stack->render_by_mode()
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/widget-base.php(679): Elementor\Widget_Base->render_content()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Widget_Base->print_content()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(911): Elementor\Element_Base->print_element()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Element_Base->print_content()
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(911): Elementor\Element_Base->print_element()
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Element_Base->print_content()
+#14 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/core/base/document.php(1420): Elementor\Element_Base->print_element()
+#15 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/core/base/document.php(943): Elementor\Core\Base\Document->print_elements()
+#16 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/frontend.php(1010): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#17 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/frontend.php(924): Elementor\Frontend->get_builder_content()
+#18 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): Elementor\Frontend->apply_builder_in_content()
+#19 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#20 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php(253): apply_filters()
+#21 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/content-page.php(53): the_content()
+#22 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#23 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#24 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#25 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/page.php(15): get_template_part()
+#26 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#27 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#28 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#29 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/kses.php on line 746
+
+2021-07-09T09:22:22+00:00 CRITICAL Uncaught ArgumentCountError: Too few arguments to function wp_kses(), 1 passed in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 42 and at least 2 expected in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/kses.php:746
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php(42): wp_kses()
+#1 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/includes/plugin.utils.php(503): include('...')
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/shortcodes/blogger/tpl.default.php(128): trx_addons_get_template_part()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/includes/plugin.utils.php(503): include('...')
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/shortcodes/blogger/blogger.php(124): trx_addons_get_template_part()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/trx_addons/components/api/elementor/elementor.php(790): trx_addons_sc_blogger()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/controls-stack.php(1892): TRX_Addons_Elementor_Widget->render()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/widget-base.php(549): Elementor\Controls_Stack->render_by_mode()
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/widget-base.php(679): Elementor\Widget_Base->render_content()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Widget_Base->print_content()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(911): Elementor\Element_Base->print_element()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Element_Base->print_content()
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(911): Elementor\Element_Base->print_element()
+#13 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/base/element-base.php(650): Elementor\Element_Base->print_content()
+#14 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/core/base/document.php(1420): Elementor\Element_Base->print_element()
+#15 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/core/base/document.php(943): Elementor\Core\Base\Document->print_elements()
+#16 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/frontend.php(1010): Elementor\Core\Base\Document->print_elements_with_wrapper()
+#17 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/plugins/elementor/includes/frontend.php(924): Elementor\Frontend->get_builder_content()
+#18 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(292): Elementor\Frontend->apply_builder_in_content()
+#19 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(212): WP_Hook->apply_filters()
+#20 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php(253): apply_filters()
+#21 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/content-page.php(53): the_content()
+#22 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(732): require('...')
+#23 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template.php(676): load_template()
+#24 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(204): locate_template()
+#25 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/page.php(15): get_template_part()
+#26 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/template-loader.php(106): include('...')
+#27 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-blog-header.php(19): require_once('...')
+#28 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/index.php(17): require('...')
+#29 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/kses.php on line 746
+
+2021-07-09T14:03:34+00:00 CRITICAL syntax error, unexpected variable "$show_more" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 82
+
+2021-07-09T14:03:44+00:00 CRITICAL syntax error, unexpected variable "$show_more" in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-content/themes/gutentype/trx_addons/components/shortcodes/blogger/tpl.default_divided-item.php on line 82
+

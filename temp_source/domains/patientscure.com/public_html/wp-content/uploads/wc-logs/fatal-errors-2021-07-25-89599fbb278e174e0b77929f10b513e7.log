@@ -1,0 +1,54 @@
+2021-07-25T19:36:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "duplicator_global_scripts" not found or invalid function name in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php:303
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#1 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/script-loader.php(2083): do_action()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): wp_enqueue_scripts()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(3015): do_action()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/blocks/legacy-widget.php(104): wp_head()
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/admin.php(175): do_action()
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/widgets.php(10): require_once('...')
+#13 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php on line 303
+
+2021-07-25T19:36:48+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "duplicator_global_scripts" not found or invalid function name in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php:303
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#1 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/script-loader.php(2083): do_action()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): wp_enqueue_scripts()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(3015): do_action()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/blocks/legacy-widget.php(104): wp_head()
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/admin.php(175): do_action()
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/widgets.php(10): require_once('...')
+#13 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php on line 303
+
+2021-07-25T19:37:45+00:00 CRITICAL Uncaught TypeError: call_user_func_array(): Argument #1 ($function) must be a valid callback, function "duplicator_global_scripts" not found or invalid function name in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php:303
+Stack trace:
+#0 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#1 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#2 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/script-loader.php(2083): do_action()
+#3 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): wp_enqueue_scripts()
+#4 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#5 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#6 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/general-template.php(3015): do_action()
+#7 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/blocks/legacy-widget.php(104): wp_head()
+#8 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(303): handle_legacy_widget_preview_iframe()
+#9 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php(327): WP_Hook->apply_filters()
+#10 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/plugin.php(470): WP_Hook->do_action()
+#11 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/admin.php(175): do_action()
+#12 /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-admin/widgets.php(10): require_once('...')
+#13 {main}
+  thrown in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/class-wp-hook.php on line 303
+

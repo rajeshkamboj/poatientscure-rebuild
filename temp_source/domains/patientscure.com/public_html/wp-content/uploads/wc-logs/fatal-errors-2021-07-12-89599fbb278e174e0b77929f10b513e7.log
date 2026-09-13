@@ -1,0 +1,4 @@
+2021-07-12T07:45:34+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 35667968 bytes) in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php on line 255
+
+2021-07-12T07:46:30+00:00 CRITICAL Allowed memory size of 268435456 bytes exhausted (tried to allocate 35667968 bytes) in /var/www/vhosts/gerasko.dv.ancorathemes.com/gutentype.gerasko.dv.ancorathemes.com/wp-includes/post-template.php on line 255
+
