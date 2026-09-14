@@ -1,0 +1,1 @@
+const { spawn } = require("child_process"); const child = spawn("cmd", ["/c", "ver"]); child.stdout.on("data", (data) => { process.stdout.write(`stdout: ${data}`); }); child.stderr.on("data", (data) => { process.stderr.write(`stderr: ${data}`); }); child.on("close", (code) => { process.exit(code); });

@@ -1,40 +1,48 @@
 @import "tailwindcss";
 
 :root {
-  --color-primary: #2D5D2C;
-  --color-secondary: #CC7357;
-  --color-background: #F8F6F0;
+  --color-primary: #1B4332;
+  --color-secondary: #8A9B6C;
+  --color-background: #F7F5F0; /* warm off-white/cream */
   --color-surface: #FFFFFF;
-  --color-text: #2E2E2E;
-  --color-accent: #A8B6A2;
+  --color-text: #1A1A1A; /* near-black for headings */
+  --color-text-body: #4A4A4A; /* warm gray for body */
+  --color-text-meta: #6B6B6B; /* lighter warm gray for meta */
+  --color-accent: #CC7000; /* warm terracotta for CTAs/highlights */
+  --color-safety: #D97706;
+  --color-success: #059669;
   --color-primary-dark: #6B8E6A;
-  --color-secondary-dark: #D4A58A;
+  --color-secondary-dark: #A6B88A;
   --color-background-dark: #1A1A1A;
   --color-surface-dark: #2D2D2D;
   --color-text-dark: #E0E0E0;
-  --color-accent-dark: #8A9B85;
+  --color-accent-dark: #6B8E6A;
 }
 
 @theme {
-  --color-primary: #2D5D2C;
-  --color-secondary: #CC7357;
-  --color-background: #F8F6F0;
+  --color-primary: #1B4332;
+  --color-secondary: #8A9B6C;
+  --color-background: #F7F5F0;
   --color-surface: #FFFFFF;
-  --color-text: #2E2E2E;
-  --color-accent: #A8B6A2;
+  --color-text: #1A1A1A;
+  --color-text-body: #4A4A4A;
+  --color-text-meta: #6B6B6B;
+  --color-accent: #CC7000;
+  --color-safety: #D97706;
+  --color-success: #059669;
   --color-primary-dark: #6B8E6A;
-  --color-secondary-dark: #D4A58A;
+  --color-secondary-dark: #A6B88A;
   --color-background-dark: #1A1A1A;
   --color-surface-dark: #2D2D2D;
   --color-text-dark: #E0E0E0;
-  --color-accent-dark: #8A9B85;
+  --color-accent-dark: #6B8E6A;
 }
 
 @custom-variant dark (&:where(.dark, .dark *));
 
 @layer base {
   h1, h2, h3, h4, h5, h6 {
-    font-family: 'Playfair Display', Georgia, serif;
+    font-family: 'Fraunces', Georgia, serif;
     font-weight: 700;
     line-height: 1.2;
     color: var(--color-text);
@@ -42,7 +50,7 @@
 
   body, p, li, span, div {
     font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
-    color: var(--color-text);
+    color: var(--color-text-body);
   }
 
   .bg-primary {
@@ -73,6 +81,22 @@
     color: var(--color-accent);
   }
 
+  .text-safety {
+    color: var(--color-safety);
+  }
+
+  .text-success {
+    color: var(--color-success);
+  }
+
+  .text-body {
+    color: var(--color-text-body);
+  }
+
+  .text-meta {
+    color: var(--color-text-meta);
+  }
+
   .border-primary {
     border-color: var(--color-primary);
   }
@@ -92,27 +116,24 @@ html {
 }
 
 body {
-  @apply antialiased bg-background text-text;
+  @apply antialiased bg-background text-text-body;
 }
 
+/* Type scale */
 h1 {
-  @apply text-4xl md:text-5xl lg:text-6xl;
+  @apply text-[40px] leading-[48px] mb-4;
 }
-
 h2 {
-  @apply text-3xl md:text-4xl lg:text-5xl;
+  @apply text-[28px] leading-[32px] mb-4;
 }
-
 h3 {
-  @apply text-2xl md:text-3xl lg:text-4xl;
+  @apply text-[22px] leading-[24px] mb-3;
 }
-
 h4 {
-  @apply text-xl md:text-2xl lg:text-3xl;
+  @apply text-[18px] leading-[24px] mb-2;
 }
-
 .lead {
-  @apply text-lg text-text/80;
+  @apply text-base text-text-body/80;
 }
 
 .container {
@@ -140,11 +161,11 @@ h4 {
 }
 
 .input {
-  @apply w-full rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text dark:placeholder-gray-400;
+  @apply w-full rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text-body dark:placeholder-gray-400;
 }
 
 .textarea {
-  @apply min-h-[80px] w-full resize-y rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text dark:placeholder-gray-400;
+  @apply min-h-[80px] w-full resize-y rounded-lg border border-gray-300 bg-surface px-4 py-3 transition-all duration-200 focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary dark:border-gray-600 dark:bg-surface-dark dark:text-text-body dark:placeholder-gray-400;
 }
 
 .section {
@@ -222,4 +243,3 @@ h4 {
 .dark .text-gray-300 {
   @apply text-gray-600;
 }
-
